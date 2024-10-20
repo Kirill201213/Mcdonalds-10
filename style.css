@@ -1,0 +1,109 @@
+.footer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: #ffc107;
+}
+
+.img{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    width: 1000px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    text-align: center;
+}
+
+footer h1{
+    margin-top: 160px;
+    text-align: center;
+}
+
+.city-select-container {
+margin: 50px;
+display: flex;
+gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+label {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+select {
+width: 300px;
+padding: 10px;
+font-size: 16px;
+border: 2px solid #ffc107;
+border-radius: 5px;
+background-color: white;
+color: black;
+appearance: none; /* Приховує стандартну стрілку браузера */
+background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath fill='%23000' d='M0 0l5 6 5-6H0z'/%3E%3C/svg%3E");
+background-repeat: no-repeat;
+background-position: right 10px top 50%;
+background-size: 15px;
+cursor: pointer;
+}
+
+select option {
+padding: 10px;
+}
+
+/* Стиль для відкритого списку */
+select:focus {
+outline: none;
+border-color: #e0a800;
+}
+
+
+/* Основні стилі для чекбоксів */
+.custom-checkbox {
+display: inline-flex;
+align-items: center;
+font-size: 18px;
+margin-right: 20px;
+}
+
+.custom-checkbox input[type="checkbox"] {
+appearance: none;
+width: 24px;
+height: 24px;
+border: 2px solid orange;
+border-radius: 3px;
+outline: none;
+margin-right: 10px;
+position: relative;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+background-color: orange;
+}
+
+.custom-checkbox input[type="checkbox"]:checked::before {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 12px;
+height: 12px;
+background-color: yellow;
+border-radius: 50%;
+}
+
+value:hover{
+    background-color: #e0a800;
+}
