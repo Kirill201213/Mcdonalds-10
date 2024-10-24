@@ -1,3 +1,15 @@
+body{
+    font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
 .footer{
     display: flex;
     gap: 10px;
@@ -5,29 +17,47 @@
     background-color: #ffc107;
 }
 
+
+
+
 .img{
     width: 500px;
     display: flex;
     justify-content: center;
 }
 
+
+
+
 .img1{
     width: 1000px;
 }
+
+
+
 
 header{
     display: flex;
     justify-content: center;
 }
 
+
+
+
 main{
     text-align: center;
 }
+
+
+
 
 footer h1{
     margin-top: 160px;
     text-align: center;
 }
+
+
+
 
 .city-select-container {
 margin: 50px;
@@ -37,10 +67,16 @@ justify-content: center;
 align-items: center;
 }
 
+
+
+
 label {
 font-size: 18px;
 margin-bottom: 10px;
 }
+
+
+
 
 select {
 width: 300px;
@@ -58,15 +94,31 @@ background-size: 15px;
 cursor: pointer;
 }
 
+
+
+
 select option {
 padding: 10px;
 }
+
+
+
 
 /* Стиль для відкритого списку */
 select:focus {
 outline: none;
 border-color: #e0a800;
 }
+select[size="5"] {
+    margin-top: -80px;
+    position: relative;
+    top: 100px;
+    left: 0;
+    z-index: 999;
+    background-image: none;
+}
+
+
 
 
 /* Основні стилі для чекбоксів */
@@ -76,6 +128,9 @@ align-items: center;
 font-size: 18px;
 margin-right: 20px;
 }
+
+
+
 
 .custom-checkbox input[type="checkbox"] {
 appearance: none;
@@ -88,9 +143,15 @@ margin-right: 10px;
 position: relative;
 }
 
+
+
+
 .custom-checkbox input[type="checkbox"]:checked {
 background-color: orange;
 }
+
+
+
 
 .custom-checkbox input[type="checkbox"]:checked::before {
 content: '';
@@ -104,6 +165,10 @@ background-color: yellow;
 border-radius: 50%;
 }
 
+
+
+
 value:hover{
     background-color: #e0a800;
+   
 }
